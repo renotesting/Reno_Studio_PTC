@@ -19,6 +19,8 @@ namespace PTCAutomationTestFramework
             tc.runTestcase(2, 210, 220, true);
             robot.Sleep(1000);
 
+
+
             //line 2 decreasing
             tc.runTestcase(2, 220, 200, false);
             robot.Sleep(1000);
