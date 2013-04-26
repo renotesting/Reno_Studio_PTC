@@ -18,8 +18,8 @@ namespace PTCAutomationTestFramework
             //line 2 increasing
             tc.runTestcase(2, 210, 220, true);
             robot.Sleep(1000);
-
-
+            
+            //this is to test git
 
             //line 2 decreasing
             tc.runTestcase(2, 220, 200, false);
