@@ -22,7 +22,7 @@ WinActivate("Open", "")
 ControlSetText("Open", "", "[CLASS:Edit; ID:1148]", "CPRS.00153.70.opk")
 Send("{TAB 2}")
 Send("{ENTER}")
-Sleep(2000)
+;Sleep(5000)
 ;ControlClick("Open", "", "[CLASS:Button; ID: 1; INSTANCE:2]")
 
 WinActivate("Loco[CPRS  1234]", "")

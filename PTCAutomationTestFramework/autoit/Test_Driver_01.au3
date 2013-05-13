@@ -15,13 +15,11 @@ LocoMotion_SetSPD(43, "Mocking") ;Warning Enforcement
 Sleep(8000)
 LocoMotion_SetSPD(45, "Mocking") ;Braking Enforcement
 VerifyBrakingEnforcementStop()
-DeleteDebugClientMessage()
 
 ;Case 3
 ;End of Authority Predictive Enforcement testing
-;~ ClearCurrentGoverningSignal()
-;~ LocoMotion(228.0000, 5, 1)
-;~ Sleep(8000)
-;~ LocoMotion_SetSPD(25, "Mocking")
-;~ VerifyBrakingEnforcementStop()
-DeleteDebugClientMessage()
+ClearCurrentGoverningSignal()
+LocoMotion(228.0000, 5, 1)
+Sleep(8000)
+LocoMotion_SetSPD(25, "Mocking")
+VerifyBrakingEnforcementStop()
